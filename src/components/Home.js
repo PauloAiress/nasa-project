@@ -1,10 +1,12 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-export default function Home() {
-    return{
+function Home() {
+    return (
         <div>
-            <Link
+            <Link to="/nasaimages">See into the space!</Link>
         </div>
-    }
+    );
 }
+
+export default Home;
